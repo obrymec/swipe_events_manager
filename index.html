@@ -1,0 +1,100 @@
+<!--
+	@project: SwipeEventsManager - https://github.com/obrymec/swipe_events_manager
+	@fileoverview: The html structure for package testing.
+	@author: Obrymec - obrymecsprinces@gmail.com
+	@created: 2023-10-06
+	@updated: 2023-10-07
+	@file: index.html
+	@version: 0.0.1
+-->
+
+<!--Swipe events manager-->
+<!Doctype html>
+	<!--Structure-->
+	<html lang = "fr">
+		<!--Header-->
+		<head>
+			<!--Encoding: "UTF-8"-->
+			<meta
+        content = "width=device-width, initial-scale=1"
+        name = "viewport"
+        charset = "utf-8"
+      />
+			<!--General title--> 
+			<title>
+				Swipe Events Manager | Testing
+			</title>
+      <!--Stylesheets-->
+      <style
+        type = "text/css"
+        media = "screen"
+      >
+        /* Top card */
+        div.top-card {
+          transform: translate(-50%, -25%) translate3d(0, 0, 0);
+          top: 25%;
+        }
+        /* Bottom card */
+        div.bottom-card {
+          transform: translate(-50%, 0) translate3d(0, 0, 0);
+          bottom: 16%;
+        }
+        /* Top span */
+        span {
+          transform: translate(-50%, -50%);
+          top: 50%;
+        }
+        /* Cards and content */
+        div.bottom-card,
+        div.top-card,
+        span {
+          cursor: pointer;
+          position: fixed;
+          left: 50%;
+        }
+        /* Body */
+        body {
+          font-family: Arial;
+          user-select: none;
+          font-size: 18px;
+          color: white;
+        }
+        /* Cards */
+        div.bottom-card,
+        div.top-card {
+          border: 3px solid transparent;
+          background-color: red;
+          height: 180px;
+          width: 180px;
+        }
+        /* Active card */
+        div.active {
+          border: 3px solid salmon;
+          background-color: green;
+          cursor: auto;
+        }
+        /* Active span */
+        div.active > span {
+          cursor: auto;
+        }
+      </style>
+		</head>
+		<!--Global container-->
+		<body>
+			<!--Global content-->
+			<main class = "content">
+        <!--Top card-->
+        <div class = "top-card active">
+          <span>Swipe me !</span>
+        </div>
+        <!--Bottom card-->
+        <div class = "bottom-card">
+          <span>Swipe me !</span>
+        </div>
+      </main>
+			<!--Test-->
+      <script type = "module">
+        
+      </script>
+		</body>
+	</html>

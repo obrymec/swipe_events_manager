@@ -1,0 +1,20 @@
+{
+  "description": "A front-end library for managing touch screen events on mobile devices.",
+  "repository": "https://github.com/obrymec/swipe_events_manager",
+  "author": "Obrymec - obrymecsprinces@gmail.com",
+  "name": "swipe-events-manager",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "minify-es5": "esbuild ./build/es5/swipe.js --minify --outfile=./build/es5/swipe.min.js",
+    "minify-es6": "esbuild ./build/es6/swipe.js --minify --outfile=./build/es6/swipe.min.js",
+    "compile": "tsc --build tsconfig.es6.json && tsc --build tsconfig.es5.json",
+    "host": "cd ./build && npm publish --access=public",
+    "start": "parcel ./index.html"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "esbuild": "^0.19.4",
+    "parcel": "^2.9.3"
+  }
+}
