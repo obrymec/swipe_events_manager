@@ -1,9 +1,15 @@
 {
   "include": ["./sources/**/*"],
   "compilerOptions": {
-    "moduleResolution": "node",
-    "outDir": "./build/es6",
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "baseUrl": "./sources",
+    "rootDir": "./sources",
+    "skipLibCheck": true,
     "declaration": true,
+    "outDir": "./build",
     "module": "ES6",
     "target": "ES5",
     "lib": [

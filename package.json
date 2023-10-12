@@ -1,20 +1,45 @@
 {
   "description": "A front-end library for managing touch screen events on mobile devices.",
-  "repository": "https://github.com/obrymec/swipe_events_manager",
+  "homepage": "https://github.com/obrymec/swipe_events_manager#readme",
   "author": "Obrymec - obrymecsprinces@gmail.com",
-  "name": "swipe-events-manager",
-  "version": "0.0.1",
+  "name": "@prince-obrymec/swipe-events-manager",
+  "types": "./build/index.d.ts",
+  "main": "./build/index.js",
+  "files": ["./build/**/*"],
+  "sideEffects": false,
+  "version": "0.0.2",
+  "private": false,
   "license": "MIT",
-  "scripts": {
-    "minify-es5": "esbuild ./build/es5/swipe.js --minify --outfile=./build/es5/swipe.min.js",
-    "minify-es6": "esbuild ./build/es6/swipe.js --minify --outfile=./build/es6/swipe.min.js",
-    "compile": "tsc --build tsconfig.es6.json && tsc --build tsconfig.es5.json",
-    "host": "cd ./build && npm publish --access=public",
-    "start": "parcel ./index.html"
+  "bugs": {
+    "url": "https://github.com/obrymec/swipe_events_manager/issues"
+  },
+  "repository": {
+    "url": "https://github.com/obrymec/swipe_events_manager.git",
+    "type": "git"
   },
   "dependencies": {
     "typescript": "^5.2.2",
     "esbuild": "^0.19.4",
     "parcel": "^2.9.3"
-  }
+  },
+  "scripts": {
+    "minify-es5": "esbuild ./build/swipe.js --minify --outfile=./build/swipe.min.js",
+    "minify-es6": "esbuild ./build/swipe.js --minify --outfile=./build/swipe.min.js",
+    "compile-es6": "tsc --build tsconfig.es6.json",
+    "compile-es5": "tsc --build tsconfig.es5.json",
+    "publish": "npm publish --access=public",
+    "start": "parcel ./index.html"
+  },
+  "keywords": [
+    "touchevent",
+    "touchstart",
+    "detection",
+    "touchend",
+    "detect",
+    "mobile",
+    "device",
+    "touch",
+    "swipe",
+    "event"
+  ]
 }

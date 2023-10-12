@@ -4,9 +4,9 @@
 * @author Obrymec - obrymecsprinces@gmail.com
 * @type {SwipeEventsManager}
 * @created 2023-10-06
-* @updated 2023-10-07
+* @updated 2023-10-11
 * @file swipe.ts
-* @version 0.0.4
+* @version 0.0.5
 */
 
 // Enumerations.
@@ -32,28 +32,28 @@ export enum SwipeEventType {
 /**
  * @classdesc Manages touch screen
  * 	events on mobile devices.
- * @type {SwipeEventManager}
+ * @type {SwipeEventsManager}
  * @public
  * @class
  */
-export class SwipeEventManager {
+export class SwipeEventsManager {
 	// Attributes.
-	/**
-	 * @description The target tag
-	 * 	element into the DOM.
-	 * @private {?(Element|String)}
-	 * @type {?(Element|String)}
-	 * @field
-	 */
-	private tag_: Element;
 	/**
 	 * @description Called when a
 	 * 	swipe event is detected.
-	 * @private {Function}
-	 * @type {Function}
+	 * @private {?Function=}
+	 * @type {?Function=}
 	 * @field
 	 */
-	private onSwipe_: any;
+	private onSwipe_: any = null;
+	/**
+	 * @description The target tag
+	 * 	element into the DOM.
+	 * @private {Element|String}
+	 * @type {Element|String}
+	 * @field
+	 */
+	private tag_: Element;
 
 	/**
 	 * @description Initializes
