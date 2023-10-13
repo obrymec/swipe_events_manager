@@ -4,7 +4,6 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "removeComments": true,
     "baseUrl": "./sources",
     "rootDir": "./sources",
     "skipLibCheck": true,

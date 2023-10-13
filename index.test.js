@@ -6,7 +6,7 @@
 * @created 2023-10-12
 * @updated 2023-10-12
 * @file index.test.js
-* @version 0.0.1
+* @version 0.0.2
 */
 
 // Plugin dependencies.
@@ -31,7 +31,7 @@ const topCard = (
 // instance.
 const swipeManager = (
   new SwipeEventsManager (
-    topCard, 
+    "div.top-card"
   )
 );
 // Free all swipe effects.
@@ -91,7 +91,7 @@ swipeManager.listen (
         .getAttribute ("name")
     );
     // Whether the direction
-    // is right.
+    // is to right.
     if (
       direction ===
         SwipeEventType.SWIPE_RIGHT
@@ -104,7 +104,7 @@ swipeManager.listen (
         }`
       );
     // Whether the direction
-    // is bottom.
+    // is to bottom.
     } else if (
       direction ===
         SwipeEventType.SWIPE_DOWN
@@ -117,7 +117,7 @@ swipeManager.listen (
         }`
       );
     // Whether the direction
-    // is left.
+    // is to left.
     } else if (
       direction ===
         SwipeEventType.SWIPE_LEFT
@@ -130,7 +130,7 @@ swipeManager.listen (
         }`
       );
     // Whether the direction
-    // is top.
+    // is to top.
     } else if (
       direction ===
         SwipeEventType.SWIPE_UP

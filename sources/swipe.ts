@@ -1,10 +1,10 @@
 /**
-* @project SwipeEventsManager - https://github.com/obrymec/swipe_events_manager
+* @project SwipeEventsManager - https://obrymec.github.io/swipe-events-manager
 * @fileoverview Manages touch screen events on mobile devices.
 * @author Obrymec - obrymecsprinces@gmail.com
 * @type {SwipeEventsManager}
 * @created 2023-10-06
-* @updated 2023-10-11
+* @updated 2023-10-13
 * @file swipe.ts
 * @version 0.0.5
 */

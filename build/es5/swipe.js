@@ -1,3 +1,5 @@
+var exports={};
+"use strict";
 /**
 * @project SwipeEventsManager - https://obrymec.github.io/swipe-events-manager
 * @fileoverview Manages touch screen events on mobile devices.
@@ -8,6 +10,8 @@
 * @file swipe.ts
 * @version 0.0.5
 */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SwipeEventsManager = exports.SwipeEventType = void 0;
 // Enumerations.
 /**
  * @description All supported
@@ -21,13 +25,13 @@
  *	SWIPE_UP
  * }
  */
-export var SwipeEventType;
+var SwipeEventType;
 (function (SwipeEventType) {
     SwipeEventType[SwipeEventType["SWIPE_RIGHT"] = 0] = "SWIPE_RIGHT";
     SwipeEventType[SwipeEventType["SWIPE_DOWN"] = 1] = "SWIPE_DOWN";
     SwipeEventType[SwipeEventType["SWIPE_LEFT"] = 2] = "SWIPE_LEFT";
     SwipeEventType[SwipeEventType["SWIPE_UP"] = 3] = "SWIPE_UP";
-})(SwipeEventType || (SwipeEventType = {}));
+})(SwipeEventType || (exports.SwipeEventType = SwipeEventType = {}));
 ;
 /**
  * @classdesc Manages touch screen
@@ -318,4 +322,4 @@ var SwipeEventsManager = /** @class */ (function () {
     };
     return SwipeEventsManager;
 }());
-export { SwipeEventsManager };
+exports.SwipeEventsManager = SwipeEventsManager;

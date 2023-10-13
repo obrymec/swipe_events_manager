@@ -1,16 +1,15 @@
 {
+  "exclude": ["./sources/index.ts"],
   "include": ["./sources/**/*"],
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "removeComments": true,
+    "outDir": "./build/es5",
     "baseUrl": "./sources",
     "rootDir": "./sources",
     "skipLibCheck": true,
     "module": "CommonJS",
-    "declaration": true,
-    "outDir": "./build",
     "target": "ES5",
     "lib": [
       "ES2020",

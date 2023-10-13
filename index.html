@@ -14,16 +14,27 @@
 	<html lang = "en">
 		<!--Header-->
 		<head>
+      <!--General title--> 
+			<title>
+				Swipe Events Manager | Testing
+			</title>
 			<!--Encoding: "UTF-8"-->
 			<meta
         content = "width=device-width, initial-scale=1"
         name = "viewport"
         charset = "utf-8"
       />
-			<!--General title--> 
-			<title>
-				Swipe Events Manager | Testing
-			</title>
+      <!--Package favicon-->
+			<link
+        ref = "./favicon.ico"
+        rel = "shortcut icon"
+        type = "image/ico"
+      />
+      <link
+        href = "./favicon.ico"
+        type = "image/ico"
+        rel = "icon"
+      />
       <!--Stylesheets-->
       <style
         type = "text/css"
@@ -42,6 +53,7 @@
         /* Top span */
         span {
           transform: translate(-50%, -50%);
+          visibility: hidden;
           top: 50%;
         }
         /* Cards and content */
@@ -75,7 +87,23 @@
         }
         /* Active span */
         div.active > span {
+          visibility: visible;
           cursor: auto;
+        }
+        /* Button */
+        button {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: steelblue;
+          transition: all .2s linear;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 18px;
+          padding: 10px;
+          border: none;
+        }
+        /* Hover effect */
+        button:hover {
+          background-color: skyblue;
         }
       </style>
 		</head>
