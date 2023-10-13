@@ -6,7 +6,7 @@
   "types": "./build/index.d.ts",
   "main": "./build/index.js",
   "sideEffects": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "license": "MIT",
   "bugs": {
