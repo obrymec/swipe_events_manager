@@ -17,7 +17,8 @@
     "type": "git"
   },
   "scripts": {
-    "start": "rm -rf ./.parcel-cache && rm -rf ./dist && parcel ./index.html",
+    "purge": "rm -rf ./.parcel-cache && rm -rf ./dist",
+    "start": "yarn run purge && parcel ./index.html",
     "build": "chmod +x ./dist.sh && bash ./dist.sh",
     "publish": "npm publish --access=public"
   },
