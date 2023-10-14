@@ -50,13 +50,24 @@ yarn add @prince-obrymec/swipe-events-manager --save-dev
 
 We can also get the CDN link there :
 ```html
-<!--CDN links for ES6 support-->
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/swipe.min.js"></script>
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/swipe.js"></script>
+<script
+  src = "https://obrymec.github.io/swipe_events_manager/build/swipe.min.js"
+  type = "text/javascript"
+></script>
+<script
+  src = "https://obrymec.github.io/swipe_events_manager/build/swipe.js"
+  type = "text/javascript"
+></script>
 
 <!--CDN links for CJS support-->
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.min.js"></script>
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.js"></script>
+<script
+  src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.min.js"
+  type = "text/javascript"
+></script>
+<script
+  src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.js"
+  type = "text/javascript"
+></script>
 ```
 
 ## Get Started
