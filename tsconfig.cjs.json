@@ -1,11 +1,10 @@
 {
-  "exclude": ["./sources/index.ts"],
   "include": ["./sources/**/*"],
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "outDir": "./build/es5",
+    "outDir": "./build/cjs",
     "baseUrl": "./sources",
     "rootDir": "./sources",
     "skipLibCheck": true,

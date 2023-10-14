@@ -15,9 +15,9 @@ provides a support for Javascript and Typescript.
 ## Access links
 An example of use case of the package is already hosted on web and
 can be accessible through one of these links below :<br/>
-- https://CodiTheck.github.io/swipe-events-manager
-- https://obrymec.github.io/swipe-events-manager
-- https://obrymec.gitlab.io/swipe-events-manager
+- https://CodiTheck.github.io/swipe_events_manager
+- https://obrymec.github.io/swipe_events_manager
+- https://obrymec.gitlab.io/swipe_events_manager
 
 ## References
 The package sources can be found via one these links below:
@@ -50,11 +50,13 @@ yarn add @prince-obrymec/swipe-events-manager --save-dev
 
 We can also get the CDN link there :
 ```html
-<!--CDN link to the compressed file-->
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe-events-manager/build/es5/swipe.min.js"></script>
+<!--CDN links for ES6 support-->
+<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/swipe.min.js"></script>
+<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/swipe.js"></script>
 
-<!--CDN link to the full file-->
-<script type = "text/javascript" src = "https://obrymec.github.io/swipe-events-manager/build/es5/swipe.js"></script>
+<!--CDN links for CJS support-->
+<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/cjs/swipe.min.js"></script>
+<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/cjs/swipe.js"></script>
 ```
 
 ## Get Started
@@ -253,7 +255,7 @@ yarn --version
 
 ### <u>Cloning</u>
 ```sh
-git clone git@github.com:obrymec/swipe_events_manager.git swipe_events_manager/
+git clone git@github.com:CodiTheck/swipe_events_manager.git swipe_events_manager/
 ```
 
 ### <u>Dependencies installation</u>

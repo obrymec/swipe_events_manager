@@ -1,12 +1,12 @@
 var exports={};
 "use strict";
 /**
-* @project SwipeEventsManager - https://obrymec.github.io/swipe-events-manager
+* @project SwipeEventsManager - https://obrymec.github.io/swipe_events_manager
 * @fileoverview Manages touch screen events on mobile devices.
 * @author Obrymec - obrymecsprinces@gmail.com
 * @type {SwipeEventsManager}
 * @created 2023-10-06
-* @updated 2023-10-13
+* @updated 2023-10-14
 * @file swipe.ts
 * @version 0.0.5
 */
@@ -323,4 +323,4 @@ var SwipeEventsManager = /** @class */ (function () {
     return SwipeEventsManager;
 }());
 exports.SwipeEventsManager = SwipeEventsManager;
-// SwipeEventsManager v1.0.5 | © CodiTheck organization
+// SwipeEventsManager v1.0.8 | © CodiTheck organization
