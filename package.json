@@ -1,6 +1,6 @@
 {
   "description": "A front-end library for managing touch screen events on mobile devices.",
-  "homepage": "https://github.com/CodiTheck/swipe_events_manager#readme",
+  "homepage": "https://github.com/obrymec/swipe_events_manager#readme",
   "author": "Obrymec - obrymecsprinces@gmail.com",
   "name": "@prince-obrymec/swipe-events-manager",
   "types": "./build/swipe.d.ts",
@@ -10,10 +10,10 @@
   "private": false,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodiTheck/swipe_events_manager/issues"
+    "url": "https://github.com/obrymec/swipe_events_manager/issues"
   },
   "repository": {
-    "url": "https://github.com/CodiTheck/swipe_events_manager.git",
+    "url": "https://github.com/obrymec/swipe_events_manager.git",
     "type": "git"
   },
   "files": [

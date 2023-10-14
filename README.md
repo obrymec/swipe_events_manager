@@ -51,12 +51,12 @@ yarn add @prince-obrymec/swipe-events-manager --save-dev
 We can also get the CDN link there :
 ```html
 <!--CDN links for ES6 support-->
-<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/swipe.min.js"></script>
-<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/swipe.js"></script>
+<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/swipe.min.js"></script>
+<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/swipe.js"></script>
 
 <!--CDN links for CJS support-->
-<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/cjs/swipe.min.js"></script>
-<script type = "text/javascript" src = "https://CodiTheck.github.io/swipe_events_manager/build/cjs/swipe.js"></script>
+<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.min.js"></script>
+<script type = "text/javascript" src = "https://obrymec.github.io/swipe_events_manager/build/cjs/swipe.js"></script>
 ```
 
 ## Get Started
@@ -255,7 +255,7 @@ yarn --version
 
 ### <u>Cloning</u>
 ```sh
-git clone git@github.com:CodiTheck/swipe_events_manager.git swipe_events_manager/
+git clone git@github.com:obrymec/swipe_events_manager.git swipe_events_manager/
 ```
 
 ### <u>Dependencies installation</u>
