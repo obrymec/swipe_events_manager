@@ -6,7 +6,7 @@
 * @created 2023-10-12
 * @updated 2023-10-14
 * @file index.test.js
-* @version 0.0.2
+* @version 0.0.3
 */
 
 // Plugin dependencies.
