@@ -3,10 +3,10 @@
   "homepage": "https://github.com/obrymec/swipe_events_manager#readme",
   "author": "Obrymec - obrymecsprinces@gmail.com",
   "name": "@prince-obrymec/swipe-events-manager",
-  "types": "./build/index.d.ts",
-  "main": "./build/index.js",
+  "types": "./build/swipe.d.ts",
+  "main": "./build/swipe.js",
   "sideEffects": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "license": "MIT",
   "bugs": {
@@ -16,24 +16,21 @@
     "url": "https://github.com/obrymec/swipe_events_manager.git",
     "type": "git"
   },
+  "files": [
+    "./build/swipe.d.ts",
+    "./build/swipe.js"
+  ],
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "uglify-js": "^3.17.4",
+    "parcel": "^2.9.3"
+  },
   "scripts": {
     "purge": "rm -rf ./.parcel-cache && rm -rf ./dist",
     "start": "yarn run purge && parcel ./index.html",
     "build": "chmod +x ./dist.sh && bash ./dist.sh",
     "publish": "npm publish --access=public"
   },
-  "dependencies": {
-    "@prince-obrymec/swipe-events-manager": "^0.0.5",
-    "typescript": "^5.2.2",
-    "uglify-js": "^3.17.4",
-    "parcel": "^2.9.3"
-  },
-  "files": [
-    "./build/index.d.ts",
-    "./build/swipe.d.ts",
-    "./build/index.js",
-    "./build/swipe.js"
-  ],
   "keywords": [
     "touchevent",
     "touchstart",
