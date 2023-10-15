@@ -1,37 +1,44 @@
 # Swipe Events Manager
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Swipe Gestures](https://img.shields.io/badge/swipe%20gestures-%232671E5.svg?style=for-the-badge)
+![Swipe Event](https://img.shields.io/badge/swipe%20event-6DA55F?style=for-the-badge)
+![Swipify](https://img.shields.io/badge/swipify-%23F05033.svg?style=for-the-badge)
+![Swiper](https://img.shields.io/badge/swiper-%23121011.svg?style=for-the-badge)
+![Swipe](https://img.shields.io/badge/swipe-%23323330.svg?style=for-the-badge)
 
 This Node Package Manager (<a href = "https://www.npmjs.com/"><i>NPM</i></a>)
 is a front-end library for managing touch screen events on mobile devices. It
 provides a support for Javascript and Typescript.
 
-## Access links
+## Table of contents
+1. [Access links](#links)
+2. [References](#refs)
+3. [Final result](#result)
+4. [Installation](#install)
+5. [Get started](#learn)
+6. [Sources code](#sources)
+    1. [Clonning](#cloning)
+    2. [Dependencies installation](#dev-install)
+    3. [Running](#running)
+
+## Access links <a id = "links"></a>
 An example of use case of the package is already hosted on web and
 can be accessible through one of these links below :<br/>
 - https://CodiTheck.github.io/swipe_events_manager
 - https://obrymec.github.io/swipe_events_manager
 - https://obrymec.gitlab.io/swipe_events_manager
 
-## References
+## References <a id = "refs"></a>
 The package sources can be found via one these links below:
 - https://www.npmjs.com/package/@prince-obrymec/swipe-events-manager
 - https://github.com/CodiTheck/swipe_events_manager
-- https://github.com/obrymec/swipe_events_manager
 - https://gitlab.com/obrymec/swipe_events_manager
 
-## Final result
+## Final result <a id = "result"></a>
 This is the final result of the project :<br/><br/>
 ![First Render](./render/render-1.png)
 ![Second Render](./render/render-2.png)
 
-## Installation
+## Installation <a id = "install"></a>
 We can install the module via `npm`, `pnpm` or `yarn`. For `npm`,
 use the command line below :
 ```sh
@@ -70,7 +77,7 @@ We can also get the CDN link there :
 ></script>
 ```
 
-## Get Started
+## Get Started <a id = "learn"></a>
 Before listen any swipe event, we must create an
 object instance of that. Of course, we must also
 import the module before any usage.
@@ -246,7 +253,7 @@ swipeManager.setTag ("#new-tag");
 swipeManager.free ();
 ```
 
-## Sources code
+## Sources code <a id = "sources"></a>
 If you want to get package sources code, make sure
 to have <i><a href = "https://nodejs.org/en/download">
 NodeJs</a></i> already installed in your machine. If
@@ -264,18 +271,18 @@ npm install yarn --global;\
 yarn --version
 ```
 
-### <u>Cloning</u>
+### Cloning <a id = "cloning"></a>
 ```sh
 git clone git@github.com:obrymec/swipe_events_manager.git swipe_events_manager/
 ```
 
-### <u>Dependencies installation</u>
+### Dependencies installation <a id = "dev-install"></a>
 Go to the root folder of the project sources and run :
 ```sh
 yarn install
 ```
 
-### <u>Running</u>
+### Running <a id = "running"></a>
 Go to the root folder of the project and run :
 ```sh
 yarn start
