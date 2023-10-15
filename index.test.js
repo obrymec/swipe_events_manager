@@ -4,13 +4,13 @@
 * @author Obrymec - obrymecsprinces@gmail.com
 * @type {SwipeEventsManager}
 * @created 2023-10-12
-* @updated 2023-10-14
+* @updated 2023-10-16
 * @file index.test.js
 * @version 0.0.3
 */
 
 // Plugin dependencies.
-import {SwipeEventsManager, SwipeEventType} from "./build/swipe.js";
+import {SwipeEventsManager, SwipeEventType} from "./build/swipe.min.js";
 
 // The bottom card tag reference.
 const bottomCard = (
