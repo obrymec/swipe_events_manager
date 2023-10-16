@@ -28,7 +28,7 @@ can be accessible through one of these links below :<br/>
 - https://obrymec.gitlab.io/swipe_events_manager
 
 ## References <a id = "refs"></a>
-The package sources can be found via one these links below:
+The package sources can be found via one these links below :
 - https://www.npmjs.com/package/@prince-obrymec/swipe-events-manager
 - https://github.com/CodiTheck/swipe_events_manager
 - https://gitlab.com/obrymec/swipe_events_manager
