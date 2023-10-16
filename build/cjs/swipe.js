@@ -323,4 +323,4 @@ var SwipeEventsManager = /** @class */ (function () {
     return SwipeEventsManager;
 }());
 exports.SwipeEventsManager = SwipeEventsManager;
-// SwipeEventsManager v1.0.8 | © CodiTheck organization
+// SwipeEventsManager v1.0.9 | © CodiTheck organization
