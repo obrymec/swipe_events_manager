@@ -22,7 +22,7 @@ provides a support for Javascript and Typescript.
 
 ## Access links <a id = "links"></a>
 An example of use case of the package is already hosted on web and
-can be accessible through one of these links below :<br/>
+can be accessible through one of these links below :
 - https://CodiTheck.github.io/swipe_events_manager
 - https://obrymec.github.io/swipe_events_manager
 - https://obrymec.gitlab.io/swipe_events_manager
@@ -34,7 +34,7 @@ The package sources can be found via one these links below :
 - https://gitlab.com/obrymec/swipe_events_manager
 
 ## Final result <a id = "result"></a>
-This is the final result of the project :<br/><br/>
+This is the final result of the project :
 ![First Render](./render/render-1.png)
 ![Second Render](./render/render-2.png)
 
