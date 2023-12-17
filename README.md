@@ -34,7 +34,7 @@ The package sources can be found via one these links below :
 - https://gitlab.com/obrymec/swipe_events_manager
 
 ## Final result <a id = "result"></a>
-This is the final result of the project :
+This is the final result of the project :<br/><br/>
 ![First Render](./render/render-1.png)
 ![Second Render](./render/render-2.png)
 
