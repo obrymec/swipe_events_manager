@@ -222,4 +222,4 @@ var SwipeEventsManager = /** @class */ (function () {
     return SwipeEventsManager;
 }());
 export { SwipeEventsManager };
-// SwipeEventsManager v1.1.0 | © CodiTheck organization
+// SwipeEventsManager v1.1.1 | © CodiTheck organization
