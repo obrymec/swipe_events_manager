@@ -1,11 +1,11 @@
 <!--
 	@project: SwipeEventsManager - https://obrymec.github.io/swipe_events_manager
 	@fileoverview: The html structure for package testing.
-	@author: Obrymec - obrymecsprinces@gmail.com
+	@author: Obrymec - https://obrymec.vercel.app
 	@created: 2023-10-06
-	@updated: 2023-12-13
+	@updated: 2024-10-23
 	@file: index.html
-	@version: 0.0.2
+	@version: 0.0.3
 -->
 
 <!--Swipe events manager-->
@@ -15,26 +15,10 @@
 		<!--Header-->
 		<head>
       <!--General title--> 
-			<title>
-				Swipe Events Manager | Testing
-			</title>
-			<!--Encoding: "UTF-8"-->
-			<meta
-        content = "width=device-width, initial-scale=1"
-        name = "viewport"
-        charset = "utf-8"
-      />
+			<title>Swipe Events Manager | Testing</title>
       <!--Package favicon-->
-			<link
-        ref = "./favicon.ico"
-        rel = "shortcut icon"
-        type = "image/ico"
-      />
-      <link
-        href = "./favicon.ico"
-        type = "image/ico"
-        rel = "icon"
-      />
+			<link ref = "./favicon.ico" rel = "shortcut icon" type = "image/ico"/>
+      <link href = "./favicon.ico" type = "image/ico" rel = "icon"/>
       <!--Meta configurations-->
 			<meta name = "twitter:image:alt" content = "The demonstration page."/>
 			<meta name = "tweetmeme-title" content = "The demonstration page"/>
@@ -44,109 +28,104 @@
 			<meta property = "og:type" content = "article"/>
 			<meta property = "og:local" content = "en_US"/>
 			<meta
-				content = "https://obrymec.github.io/swipe_events_manager/render/render-1.png"
+        content = "This Node Package Manager (NPM) is a front-end library for managing touch screen events on mobile devices. It provides a support for Javascript and Typescript."
+				name = "twitter:description"
+			/>
+			<meta
+        content = "This Node Package Manager (NPM) is a front-end library for managing touch screen events on mobile devices. It provides a support for Javascript and Typescript."
+				property = "og:description"
+			/>
+			<meta
+        content = "This Node Package Manager (NPM) is a front-end library for managing touch screen events on mobile devices. It provides a support for Javascript and Typescript."
+				name = "description"
+			/>
+      <meta
+				content = "https://obrymec.github.io/swipe_events_manager/render/render_1.png"
 				name = "twitter:image"
 			/>
 			<meta
-				content = "https://obrymec.github.io/swipe_events_manager/render/render-1.png"
+				content = "https://obrymec.github.io/swipe_events_manager/render/render_1.png"
 				property = "og:image"
 			/>
 			<meta
-				content = "https://obrymec.github.io/swipe_events_manager/"
+				content = "https://obrymec.github.io/swipe_events_manager"
 				property = "og:url"
 			/>
 			<meta
-				content = "https://obrymec.github.io/swipe_events_manager/"
+				content = "https://obrymec.github.io/swipe_events_manager"
 				name = "twitter:card"
 			/>
-			<meta
-				name = "twitter:description"
-				content = "
-          This Node Package Manager (NPM) is a
-          front-end library for managing touch
-          screen events on mobile devices. It
-          provides a support for Javascript
-          and Typescript.
-				"
-			/>
-			<meta
-				property = "og:description"
-				content = "
-          This Node Package Manager (NPM) is a
-          front-end library for managing touch
-          screen events on mobile devices. It
-          provides a support for Javascript
-          and Typescript.
-				"
-			/>
-			<meta
-				name = "description"
-				content = "
-          This Node Package Manager (NPM) is a
-          front-end library for managing touch
-          screen events on mobile devices. It
-          provides a support for Javascript
-          and Typescript.
-				"
-			/>
+      <meta
+        content = "width=device-width, initial-scale=1"
+        name = "viewport"
+        charset = "utf-8"
+      />
       <!--Stylesheets-->
-      <style
-        type = "text/css"
-        media = "screen"
-      >
-        /* Top card */
+      <style type = "text/css" media = "screen">
+        /** Hover effect */
+        button:hover {
+          background-color: skyblue;
+        }
+        /** Top card */
         div.top-card {
           transform: translate(-50%, -25%) translate3d(0, 0, 0);
           top: 25%;
         }
-        /* Bottom card */
+        /** Bottom card */
         div.bottom-card {
           transform: translate(-50%, 0) translate3d(0, 0, 0);
           bottom: 16%;
         }
-        /* Top span */
+        /** Active span */
+        div.active > span {
+          visibility: visible !important;
+          cursor: auto;
+        }
+        /** Top span */
         span {
           transform: translate(-50%, -50%);
           visibility: hidden;
           top: 50%;
         }
-        /* Cards and content */
-        div.bottom-card,
-        div.top-card,
-        span {
+        /** Active card */
+        div.active {
+          border: 3px solid salmon !important;
+          background-color: green !important;
+          cursor: auto;
+        }
+        /** Cards and content */
+        div.bottom-card, div.top-card, span {
           cursor: pointer;
           position: fixed;
           left: 50%;
         }
-        /* Body */
+        /** Cards */
+        div.bottom-card, div.top-card {
+          border: 3px solid transparent;
+          background-color: red;
+          height: 160px;
+          width: 160px;
+        }
+        /** Body */
         body {
           font-family: Arial;
           user-select: none;
           font-size: 16px;
           color: white;
         }
-        /* Cards */
-        div.bottom-card,
-        div.top-card {
-          border: 3px solid transparent;
-          background-color: red;
-          height: 160px;
-          width: 160px;
+        /** Info */
+        div.info {
+          font-weight: bolder;
+          text-align: center;
+          color: #646464;
+          position: fixed;
+          bottom: 32px;
+          right: 20px;
+          left: 20px;
         }
-        /* Active card */
-        div.active {
-          border: 3px solid salmon;
-          background-color: green;
-          cursor: auto;
-        }
-        /* Active span */
-        div.active > span {
-          visibility: visible;
-          cursor: auto;
-        }
-        /* Button */
+        /** Button */
         button {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           background-color: steelblue;
           transition: all .2s linear;
           border-radius: 4px;
@@ -155,20 +134,6 @@
           padding: 10px;
           border: none;
         }
-        /* Hover effect */
-        button:hover {
-          background-color: skyblue;
-        }
-        /* Info */
-        div.info {
-          font-weight: bolder;
-          text-align: center;
-          color: #646464;
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-          left: 20px;
-        }
       </style>
 		</head>
 		<!--Global container-->
@@ -176,34 +141,24 @@
 			<!--Global content-->
 			<main class = "content">
         <!--Top card-->
-        <div
-          class = "top-card active"
-          name = "Top card"
-        >
+        <div class = "top-card active" name = "Top card">
+          <!--Label text-->
           <span>Swipe me !</span>
         </div>
         <!--Bottom card-->
-        <div
-          class = "bottom-card"
-          name = "Bottom card"
-        >
+        <div class = "bottom-card" name = "Bottom card">
+          <!--Label text-->
           <span>Swipe me !</span>
         </div>
         <!--Free swipe control-->
-        <button>
-          Destroy event effects
-        </button>
+        <button>Destroy event effects</button>
       </main>
       <!--Info-->
       <div class = "info">
-        It's recommended to open the
-        website from your mobile
+        It's recommended to open the website from your mobile
         phone to get a better result.
       </div>
 			<!--Test-->
-      <script
-        src = "./index.test.js"
-        type = "module"
-      ></script>
+      <script src = "./index.test.js" type = "module"></script>
 		</body>
 	</html>

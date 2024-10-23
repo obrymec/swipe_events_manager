@@ -3,16 +3,13 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM"],
     "esModuleInterop": true,
     "outDir": "./build/cjs",
     "baseUrl": "./sources",
     "rootDir": "./sources",
     "skipLibCheck": true,
     "module": "CommonJS",
-    "target": "ES5",
-    "lib": [
-      "ES2020",
-      "DOM"
-    ]
+    "target": "ES5"
   }
 }

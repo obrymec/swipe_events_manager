@@ -3,6 +3,7 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM"],
     "esModuleInterop": true,
     "baseUrl": "./sources",
     "rootDir": "./sources",
@@ -10,10 +11,6 @@
     "declaration": true,
     "outDir": "./build",
     "module": "ES6",
-    "target": "ES5",
-    "lib": [
-      "ES2020",
-      "DOM"
-    ]
+    "target": "ES5"
   }
 }

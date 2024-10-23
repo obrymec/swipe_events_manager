@@ -1,13 +1,13 @@
 {
   "description": "A front-end library for managing touch screen events on mobile devices.",
   "homepage": "https://github.com/obrymec/swipe_events_manager#readme",
-  "author": "Obrymec - obrymecsprinces@gmail.com",
+  "files": ["./build/swipe.d.ts", "./build/swipe.js"],
+  "author": "Obrymec - https://obrymec.vercel.app",
   "name": "@prince-obrymec/swipe-events-manager",
   "types": "./build/swipe.d.ts",
   "main": "./build/swipe.js",
   "sideEffects": false,
-  "version": "1.0.9",
-  "private": false,
+  "version": "1.1.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/obrymec/swipe_events_manager/issues"
@@ -16,13 +16,9 @@
     "url": "https://github.com/obrymec/swipe_events_manager.git",
     "type": "git"
   },
-  "files": [
-    "./build/swipe.d.ts",
-    "./build/swipe.js"
-  ],
   "dependencies": {
-    "typescript": "^5.2.2",
     "uglify-js": "^3.17.4",
+    "typescript": "^5.2.2",
     "parcel": "^2.9.3"
   },
   "scripts": {
