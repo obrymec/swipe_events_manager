@@ -35,8 +35,8 @@ The package sources can be found via one these links below :
 
 ## Final result <a id = "result"></a>
 This is the final result of the project :<br/><br/>
-![First Render](./render/render-1.png)
-![Second Render](./render/render-2.png)
+![First Render](./render/render_1.png)
+![Second Render](./render/render_2.png)
 
 ## Installation <a id = "install"></a>
 We can install the module via `npm`, `pnpm` or `yarn`. For `npm`,
